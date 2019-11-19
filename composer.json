@@ -1,0 +1,12 @@
+{
+    "name": "dszwed/wordpress-boilerplate",
+    "description": "Base for WordPress projcts",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dawid Szwed",
+            "email": "dawid@gootek.pl"
+        }
+    ],
+    "require": {}
+}
