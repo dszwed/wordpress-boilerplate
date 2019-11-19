@@ -1,11 +1,13 @@
 # wordpress-boilerplate
 
-##Requirements
+## Requirements
+
 [WP CLI](https://wp-cli.org/)
 
 [Composer](https://getcomposer.org/)
 
-##Usage
+## Usage
+
 Run commands:
 
 wp core download
