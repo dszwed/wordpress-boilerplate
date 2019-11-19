@@ -5,7 +5,7 @@ core config:
   dbprefix: wp_
 
 core download:
-  version: 5.0
+  version: 5.3
 
 core install:
   title: WordPress Boilerplate
