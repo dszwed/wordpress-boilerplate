@@ -16,3 +16,5 @@ wp config create --dbname=*dbname* --dbuser=*dbuser* --dbpass=*dbpass*
 
 wp core install --url=*url*
 
+composer install
+
