@@ -8,5 +8,27 @@
             "email": "dawid@gootek.pl"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
+    },
+    "require": {
+        "wpackagist-plugin/wordpress-seo": "12.5.*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/query-monitor": "^3.4",
+        "wpackagist-plugin/theme-check": "20190801.1"
+    }
 }
