@@ -13,8 +13,6 @@ readme.html
 xmlrpc.php
 wp-content/index.php
 wp-content/uploads/
-wp-content/plugins/akismet/
-wp-content/plugins/hello.php
 wp-content/plugins/index.php
 wp-content/themes/index.php
 
@@ -25,7 +23,4 @@ wp-content/plugins/query-monitor
 wp-content/plugins/theme-check
 
 ### WordPress themes files
-wp-content/themes/twentynineteen/
-wp-content/themes/twentyseventeen/
-wp-content/themes/twentysixteen/
-wp-content/themes/twentytwenty/
+/wp-content/themes/understrap/

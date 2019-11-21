@@ -12,6 +12,10 @@
         {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/dszwed/understrap"
         }
     ],
     "extra": {
@@ -25,7 +29,8 @@
         }
     },
     "require": {
-        "wpackagist-plugin/wordpress-seo": "12.5.*"
+        "wpackagist-plugin/wordpress-seo": "12.5.*",
+        "dszwed/understrap": "^0.9.4"
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "^3.4",
