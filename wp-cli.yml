@@ -1,11 +1,12 @@
 apache_modules:
   - mod_rewrite
+  - mod_not_exists_dawid
 
 core config:
   dbprefix: wp_
 
 core download:
-  version: 5.3
+  version: 5.2
 
 core install:
   title: WordPress Boilerplate
