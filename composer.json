@@ -8,6 +8,11 @@
             "email": "dawid@gootek.pl"
         }
     ],
+    "config": {
+        "github-oauth": {
+            "github.com": "3ea99c7928203381de15834e5de80e5e731b29aa"
+        }
+    },
     "repositories": [
         {
             "type": "composer",
