@@ -1,4 +1,4 @@
-<form method="post" action="<?php admin_url('admin-ajax.php') ?>">
+<form method="post" action="<?php echo admin_url('admin-ajax.php') ?>">
 	<?php wp_nonce_field('send-form'); ?>
 	<input type="hidden" action="send-form">
 	<div class="form-group">
