@@ -1,6 +1,6 @@
-<form method="post" action="<?php echo admin_url('admin-ajax.php') ?>">
+<form method="post" action="<?php echo admin_url('admin-ajax.php') ?>" class="js--contact-form">
 	<?php wp_nonce_field('send-form'); ?>
-	<input type="hidden" action="send-form">
+	<input type="hidden" name="action" value="send-form">
 	<div class="form-group">
 		<label for="exampleInputEmail1">Email address</label>
 		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required>
